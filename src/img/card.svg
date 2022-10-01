@@ -1,0 +1,15 @@
+<svg width="1030" height="460" viewBox="0 0 1030 460" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1030" height="460" rx="50" fill="#124074"/>
+<mask id="mask0_0_1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1030" height="460">
+<rect width="1030" height="460" rx="50" fill="#124074"/>
+</mask>
+<g mask="url(#mask0_0_1)">
+<ellipse cx="770" cy="247.5" rx="474" ry="474.5" fill="url(#paint0_radial_0_1)" fill-opacity="0.5"/>
+</g>
+<defs>
+<radialGradient id="paint0_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(770 247.5) rotate(90) scale(474.5 474)">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#124074" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

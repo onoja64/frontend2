@@ -1,0 +1,137 @@
+.about__container {
+  align-items: center;
+  position: absolute;
+  width: 1030px;
+  height: 601px;
+  margin-left: 6rem;
+  top: 60rem;
+}
+
+.about__video {
+  /* margin-top: 2.5rem;
+  margin-right: -10rem;
+  margin-bottom: 10rem;
+  transform: scale(1.2); */
+}
+.about__video > img {
+  margin-top: 2.5rem;
+  margin-left: 5rem;
+  margin-bottom: 10rem;
+  transform: scale(1.2);
+}
+
+.about__work {
+  position: absolute;
+  width: 626px;
+  height: 90px;
+  margin-left: 0px;
+  /* margin-top: 72px; */
+}
+.about__work > p {
+  margin-bottom: 4rem;
+}
+
+.about__cards {
+  display: flex;
+  flex-direction: 1;
+  position: absolute;
+  width: 1029px;
+  height: 424px;
+  margin-left: 0px;
+  margin-top: 100px;
+}
+.left__card {
+  display: flex;
+  flex-direction: column;
+  margin-left: -1rem;
+}
+
+h4 {
+  width: 15rem;
+  margin-bottom: 0;
+}
+p {
+  height: 42px;
+}
+.left__card2 {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0rem;
+  margin-top: 5rem;
+}
+
+h7 {
+  width: 10rem;
+  height: 48px;
+}
+
+h8 {
+  width: 247px;
+  height: 39px;
+}
+
+.right__card {
+  display: absolute;
+  margin-left: 10rem;
+  margin-top: 20rem;
+}
+
+.card__frame {
+  margin-left: 1rem;
+  margin-top: -25rem;
+  width: 35rem;
+}
+
+.lorem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 10px;
+  margin-left: 4rem;
+  margin-top: -22.7rem;
+  position: absolute;
+  width: 355px;
+  height: 322px;
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.lorem__title {
+  display: flex;
+  margin-left: -0.7rem;
+  margin-bottom: -2rem;
+}
+
+.lorem__text {
+  margin-left: -0.7rem;
+  margin-top: 1.7rem;
+  height: 40px;
+  width: 20rem;
+}
+
+.lorem__container {
+  width: 20rem;
+}
+
+.lorem__amount {
+  margin-left: -0.7rem;
+  margin-top: 4rem;
+}
+
+h6 {
+  margin-bottom: 1px;
+}
+
+.lorem__details {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: -1rem;
+  gap: 10px;
+  padding: 0.2rem;
+}
+
+@media screen and (max-width: 480px) {
+}

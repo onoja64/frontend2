@@ -1,0 +1,8 @@
+.partner__container {
+  margin-top: 35rem;
+  position: absolute;
+  margin-left: 13rem;
+}
+
+@media screen and (max-width: 480px) {
+}

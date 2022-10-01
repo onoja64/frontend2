@@ -1,0 +1,137 @@
+.n-wrapper {
+  position: absolute;
+  height: 10vh;
+  display: flex;
+  width: 100%;
+  margin-bottom: 3rem;
+  top: 0;
+  left: 0rem;
+  background: var(--color-bg);
+  justify-content: center;
+}
+.n-left {
+  position: relative;
+  flex: 1;
+  align-items: center;
+  display: flex;
+  margin-right: 3rem;
+  gap: 1rem;
+}
+
+.n-name {
+  /* position: relative; */
+  margin-left: 5rem;
+  margin-top: 5rem;
+  width: 79px;
+  height: 100px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  color: #0b2644;
+}
+.n-right {
+  position: relative;
+  flex: 1.5;
+  margin-right: 5rem;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.n-list {
+  display: flex;
+  justify-content: space-between;
+  width: 720px;
+  top: 35px;
+  gap: 2rem;
+}
+.n-list > ul {
+  display: flex;
+  gap: 2rem;
+  margin-left: -5rem;
+}
+
+.n-list > ul > a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.n-button {
+  flex: 2;
+  right: -3rem;
+  padding: 0rem;
+  margin-top: 0rem;
+}
+
+@media screen and (max-width: 1340px) {
+  .n-list {
+    flex: 10;
+    width: 420px;
+    height: 47px;
+    left: 337.35px;
+    top: 30px;
+  }
+  .n-list > ul {
+    display: flex;
+    gap: 0.1rem;
+    margin-right: 1rem;
+  }
+
+  .n-list > ul :hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .n-wrapper {
+    width: 100%;
+  }
+  .n-button {
+    flex: 6;
+    width: 12rem;
+  }
+  .n-name {
+    left: 25px;
+    top: 45px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #0b2644;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .n-list {
+    display: none;
+  }
+  .n-wrapper {
+    width: 100%;
+  }
+  .n-button {
+    display: none;
+  }
+  .n-name {
+    left: 20px;
+    top: 20px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #0b2644;
+  }
+}
+@media screen and (max-width: 480px) {
+  .n-list {
+    display: none;
+  }
+  .n-wrapper {
+    overflow: hidden;
+  }
+  .n-left {
+    margin-left: -5rem;
+  }
+}
